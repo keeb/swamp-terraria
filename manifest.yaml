@@ -1,0 +1,8 @@
+manifestVersion: 1
+name: "@keeb/terraria"
+version: "2026.02.27.1"
+description: "Terraria server control via Docker tmux"
+models:
+  - terraria_server.ts
+dependencies:
+  - "@keeb/ssh"
