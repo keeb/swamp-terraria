@@ -1,6 +1,6 @@
 manifestVersion: 1
 name: "@keeb/terraria"
-version: "2026.03.02.3"
+version: "2026.04.06.1"
 description: "Terraria server control via Docker tmux (https://github.com/keeb/swamp-terraria)"
 repository: https://github.com/keeb/swamp-terraria
 labels:
@@ -9,5 +9,7 @@ labels:
   - server
 models:
   - terraria_server.ts
+skills:
+  - terraria
 dependencies:
   - "@keeb/ssh"
